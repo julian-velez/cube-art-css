@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+
+.cube {
+    width: 150px;
+    height: 150px;
+    background-color: cyan;
+    margin: 50px;
+    animation: julian 0.5s ease infinite;
+}
+
+.cube-2 {
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    margin: 50px;
+    animation: julian 0.5s linear infinite;
+    animation: julian 0.5s ease infinite;
+}
+
+
+.cube-3{
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    margin: 50px;
+    animation: julian 0.5s linear infinite;
+    animation: julian 0.5s ease infinite;
+}
+
+
+@keyframes julian {
+    0%{
+        transform: rotate(0deg);
+    }
+    10%{
+         transform: scale(-1.8); 
+    }
+}
